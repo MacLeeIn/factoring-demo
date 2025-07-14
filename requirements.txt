@@ -4,3 +4,5 @@ minorminer==0.1.7
 dimod==0.7.9
 dwave-cloud-client==0.5.1
 jsonschema==2.6.0
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
